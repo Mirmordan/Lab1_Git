@@ -18,6 +18,7 @@ case 1:{
         wcout<< L"это НЕ ТРЕУГОЛЬНИК"<<endl;
         break;
     }
+    //добавить еще защиты от дураков
     wcout << L"Периметр : " << edge1+edge2+edge3 <<endl;
         double half_per = (edge1+edge2+edge3)/2;
         double square = sqrt(half_per*(half_per-edge1)*(half_per-edge2)*(half_per-edge3));
