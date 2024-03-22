@@ -36,7 +36,7 @@ cin >> radius >> degree;
 double Square = M_PI * radius * radius;
 wcout << L"Длинна окружности : " << 2 * M_PI * radius << endl;
 wcout << L"Площадь окружности : " << Square << endl;
-if (degree <0 or degree >360) 
+if (degree <0 or degree >360) // Проверка на дурака
 wcout << L"Площадь кругового сектора не соответствует объективной действительности" << endl;
 else
 wcout << L"Площадь кругового сектора : " << Square*degree/360 << endl;
